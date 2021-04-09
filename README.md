@@ -1,2 +1,2 @@
-# java_web_miniproject
-# jsp를 활용한 mvc 모델
+# jsp를 활용한 mvc모델
+-> 게시판, 로그인, 회원가입, 댓글달기
