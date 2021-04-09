@@ -1,0 +1,87 @@
+@charset "UTF-8";
+button {
+	color: white;
+	font: 40px 궁서 bold italic;
+	border: 2px solid #2ed573;
+	border-radius: 20px;
+	background: transparent;
+}
+button:hover{
+	background: #2ed573;
+}
+input{
+	color: silver;
+	font: 40px 굴림 bold;
+	background: white;
+}
+td {
+	/* width: 200px; */
+	font: 20px sans-serif bold;
+	background: transparent;
+	text-align: center;
+	width: 300px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+li {
+	list-style: none;
+	float: left;
+	padding: 15px; /* 여백 */
+	border: 2px solid dashed white;
+}
+
+li:nth-child(2n){
+	background: pink;
+}
+li:nth-child(2n+1){
+	background: orange;
+}
+
+#total {
+	width: 800px;
+	height: 800px;
+	color: #2d3436;
+	font: 20px 궁서 bold;
+	background-image: url("../img/back.png");
+	position: relative;
+}
+
+#top {
+	padding-top: 15px;
+	width: 800px;
+	height: 100px;
+	background: rgba(0,0,0,0.7);
+}
+
+#top2 {
+	color: navy;
+	top: 5px;
+	right: 5px;
+	width: 180px;
+	height: 400px;
+	background: white;
+	position: fixed;
+	float: left;
+	padding:20px;
+	border: 3px solid black;
+	border-radius: 25px;
+	text-align: center;
+	opacity: 0.8;
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+#top2:hover{
+	width: 400px;
+	height: 300px;
+	opacity: 1;
+	transform:translate(180deg); 
+	right: auto;
+}
+#center{
+	background: linear-gradient(#e66465, #9198e5);
+}
+td{
+	border: 1px dotted gray;
+}
